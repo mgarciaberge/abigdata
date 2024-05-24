@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/home.css') }}">
+    <title>Contenido</title>
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            {% if name %}
+                <h1>Lo siento, {{ name }}, de momento no hay contenido disponible</h1>
+            {% else %}
+                <h1>No puedo mostrarte el contenido, sin saber quién eres. Por favor entra tu nombre en <a href="{{ url_for('home') }}">la página inicial</a>.</h1>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
+

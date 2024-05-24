@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/home.css') }}">
+    <title>Inici</title>
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <h1>Bienvenido</h1>
+            <form method="post">
+                <input type="text" name="user_name" placeholder="Introduce tu nombre" required>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
