@@ -1,0 +1,38 @@
+  739  flask run
+  740  docker run
+  741  mv dockerfile Dockerfile
+  742  ls
+  743  docker build
+  744  docker image build -t hello:v0.1
+  745  docker image ls
+  746  docker buildx build -t hello:v0.1
+  747  docker image build -t hello:v0.1
+  748  docker image build -t flask:v0.1
+  749  docker build -t mi_flask_app:latest .
+  750  cat Dockerfile 
+  751  docker build -t mi_flask_app:latest .
+  752  cat Dockerfile 
+  753  docker build -t mi_flask_app:latest .
+  754  docker run flask_app
+  755  docker build -t flask_app:latest .
+  756  docker run flask_app
+  757  docker images
+  758  docker rmi mi_flask_app:latest 
+  759  docker rmi carlemany-backend-dev:latest 
+  760  docker rmi 0a
+  761  docker rmi 0a9d6a605158
+  762  docker rmi f85d6bc73fec
+  763  docker rmi 7b2ed853e15f
+  764  docker rmi c28e8a8e6fc3
+  765  docker rmi -f c28e8a8e6fc3
+  766  docker rmi -f 0a9d6a605158
+  767  docker rmi -f c28e8a8e6fc3
+  768  docker rmi -f 998ebaae16ae
+  769  docker rmi -f b935fa5ee688
+  770  docker images
+  771  docker images prune
+  772  docker image prune -a
+  773  clear
+  774  docker run flask_app
+  775  clear
+  776  history > comandes.txt
